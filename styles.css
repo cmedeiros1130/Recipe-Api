@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ff6e00;
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px;
+  position: relative;
+  transition: width 1.5s;
+}
+
+.input {
+  margin: 10px 50px;
+  margin-left: 20px;
+  width: 100%;
+  color: #ff6e00;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.magnifier {
+  position: absolute;
+  right: 15px;
+  width: 25px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  color: #ffa31a;
+}
+
+ul li {
+  display: inline;
+  margin-left: 40px;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+  padding: 3rem;
+  box-shadow: 10px 10px 40px 5px #e0e0e0;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container h1 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.content-container p {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+  color: #444444;
+  width: 26rem;
+}
+
+.img {
+  transform: translateX(-20px);
+  margin-top: 1rem;
+  width: 720px;
+  height: 720px;
+  background: url("lily-banse--YHSwy6uqvk-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ingredents {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.ingred-container {
+  border: groove;
+  background-color: none;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.ingredents span {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  border: groove;
+}
+
+.ing {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px 2px;
+  border: 2px soild #ff6e00;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 100px;
+  display: inline-table;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.main-btn {
+  font-size: 30px;
+  background: transparent;
+  border: 2px soild #ffa31a;
+  padding: 10px;
+  color: #ffa31a;
+}
+
+.main-btn:hover {
+  background-color: blue;
+}
